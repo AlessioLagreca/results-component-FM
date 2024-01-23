@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Hanken";
+  src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Hanken";
+}
+.container {
+  display: flex;
+  height: 450px;
+  width: 600px;
+  position: relative;
+  border: 1px solid blue;
+  border-radius: 2rem;
+}
+.sopra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 2rem;
+}
+h1 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+.main-number {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.second-number {
+}
