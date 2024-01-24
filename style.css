@@ -9,8 +9,9 @@
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
+  margin-top: 3rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -20,6 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   font-family: "Hanken";
 }
@@ -31,8 +33,8 @@ body {
   height: 450px;
   width: 600px;
   position: relative;
-  border: 1px solid blue;
   border-radius: 2rem;
+  box-shadow: 0 15px 28px hsla(241, 100%, 27%, 0.1);
 }
 .sopra {
   display: flex;
@@ -43,12 +45,13 @@ body {
   left: 0;
   height: 100%;
   width: 300px;
-  border: 1px solid black;
   border-radius: 2rem;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 h1 {
   font-size: 1.4rem;
   margin-top: 2rem;
+  color: hsl(0, 0%, 83%);
 }
 
 .circle {
@@ -59,24 +62,29 @@ h1 {
   margin-top: 2rem;
   height: 10rem;
   width: 10rem;
-  border: 1px solid green;
   border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 .main-number {
   font-size: 3.5rem;
   font-weight: 900;
+  color: hsl(0, 0%, 100%);
 }
 .second-number {
+  font-weight: 600;
+  color: hsl(0, 0%, 59%);
 }
 
 h2 {
   font-size: 1.8rem;
   margin-top: 2rem;
+  color: hsl(0, 0%, 100%);
 }
 
 p {
   text-align: center;
   margin: 1rem 3rem 1rem 3rem;
+  color: hsl(0, 0%, 83%);
 }
 
 /* RIGHT SECTION */
@@ -86,17 +94,16 @@ p {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  border: 1px solid black;
 }
 
 .right-section h1 {
   margin-bottom: 2rem;
+  color: hsl(224, 30%, 27%);
 }
 
 .items {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -104,18 +111,19 @@ p {
 
 .item {
   padding: 1rem 0.7rem 1rem 0.7rem;
-  border: 1px solid salmon;
   border-radius: 0.6rem;
   width: 13rem;
   display: flex;
   align-items: center;
   position: relative;
+  gap: 0.5rem;
 }
 
 .score {
   position: absolute;
   right: 0;
   margin-right: 1rem;
+  color: hsl(224, 30%, 27%);
 }
 
 .continue {
@@ -124,4 +132,21 @@ p {
   padding: 0.7rem 5rem 0.7rem 5rem;
   border-radius: 2rem;
   color: white;
+}
+
+.reaction {
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 100%, 97%);
+}
+.memory {
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 100%, 96%);
+}
+.verbal {
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(166, 100%, 95%);
+}
+.visual {
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 85%, 96%);
 }
